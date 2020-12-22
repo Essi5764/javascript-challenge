@@ -50,7 +50,7 @@ function runEnter() {
   // Filter the data by datetime
 	var results = tableData.filter(ufo => ufo.datetime === inputValue);
 	
-	// Clear out current contents in the table
+	// Resetting the table
 	tbody.html("");
 
 	// Matching results vs Non-Matching 
